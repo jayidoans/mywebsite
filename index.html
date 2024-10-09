@@ -1,0 +1,58 @@
+<!--
+    dalam tutorial kali ini kita akan kenalan dengan responsive web layout.
+    Khususnya penggunaan dari Grid layout dan juga Flex Box.
+
+    we will try to create the structure as below:
+    - The left pane <aside> will be you Navigation
+    - The top pane, will be our banner
+    - the right pane you can customize depends on your need
+    - and the footer will display a credit on whom create the website
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome!</h1>
+    </div>
+
+    <div class="container">
+        <div class="menu">
+            <ul>
+                <li><a href=index.html>Home</a></li>
+                <li>About Me</li>
+                <li>My Holiday</li>
+                <li>Registration Form</li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <h1>Hello There!</h1>
+            <img src="animage.jpg" alt="An image i think" class="responsive-img">
+            <p>
+                Hello there, welcome to my humble website.<br>
+                Please do understand, this website was created as a portfolio<br>
+                of a Responsive Website.
+            </p>
+        </div>
+
+        <div class="aside">
+            <h2>Some Title</h2>
+            <p>
+                Any text that you would type will be placed here. <br>
+                maybe an ad in the future :)
+            </p>
+        </div>
+
+        <div class="footer">
+            <p>
+                ps: please try to resize the browser. :)
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
